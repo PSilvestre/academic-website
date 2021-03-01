@@ -1,0 +1,69 @@
+# Theme metadata
+name = "nord"
+
+# Is theme light or dark?
+light = true
+
+# Serves for both light and dark
+#Not sure of its purpose though
+primary = "#88c0d0" 
+
+#LIGHT 
+
+# Menu
+menu_primary = "#4c566a"
+menu_text = "#e5e9f0"
+menu_text_active = "#88c0d0"
+menu_title = "#e5e9f0"
+
+# Backgrounds
+background = "#d8dee9"
+home_section_odd = "#e5e9f0"
+home_section_even = "#d8dee9"
+
+#Links
+link = "#88c0d0"
+link_hover = "#5e81ac"
+
+[dark]
+	primary = "#88c0d0" 
+	# Menu
+	menu_primary = "#2e3440"
+	menu_text = "#d8dee9"
+	menu_text_active = "#88c0d0"
+	menu_title = "#d8dee9"
+	
+	# Backgrounds
+	background = "#2e3440"
+	home_section_odd = "#434c5e"
+	home_section_even = "#3b4252"
+	
+	#Links
+	link = "#88c0d0"
+	link_hover = "#5e81ac"
+
+#NORD:
+
+##DARKS (Darkest to lightest):
+#2e3440
+#3b4252
+#434c5e
+#4c566a
+
+##LIGHTS (Greyish to white):
+#d8dee9
+#e5e9f0
+#eceff4
+
+##FROST:
+#8fbcbb			Greenish TEAL
+#88c0d0			Blueish TEAL
+#81a1c1			Dull blue
+#5e81ac			deep dull blue
+
+##AURORA:
+#bf616a			RED
+#d08770			ORANGE
+#ebcb8b			YELLOW
+#a3be8c			GREEN
+#b48ead			PUrPLe

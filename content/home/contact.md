@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 130
 
-title: Contact
-subtitle:
+title: Send me an email!
+subtitle: This is the best way to reach me for professional matters
 
 content:
   # Automatically link email and phone or display as text?
@@ -18,12 +18,10 @@ content:
   
   # Email form provider
   form:
-    provider: netlify
+    provider: formspree
     formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+      id: xaylgpgj
+      captcha: true
   
 design:
   columns: '2'
