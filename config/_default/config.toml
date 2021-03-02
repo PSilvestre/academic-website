@@ -98,6 +98,8 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
 # Install Wowchemy
 [module]
   [[module.imports]]
+    path = "github.com/loup-brun/hugo-cite"
+  [[module.imports]]
     path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms"
   [[module.imports]]
     path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
