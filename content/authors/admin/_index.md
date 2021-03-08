@@ -71,7 +71,7 @@ email: ""
 highlight_name: false
 ---
 
-I am a PhD student in the Large-Scale Data & Systems group at Imperial College London, under the supervision of Dr. Peter Pietzuch. My research at Imperial will focus on the interplay between Stream Processing and Edge Computing research.
-Before Imperial, I was a Research Engineer at the TU Delft's Web Information Systems group, working on High-Availability for Stream Processing and a student at the NOVA School of Science and Technology.
+I am a PhD student in the [Large-Scale Data & Systems Group](https://lsds.doc.ic.ac.uk/) at [Imperial College London](http://www.imperial.ac.uk/), under the supervision of [Dr. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/). My research at Imperial will focus on the interplay between Stream Processing and Edge Computing.
+Before Imperial, I was a Research Engineer at the TU Delft's [Web Information Systems Group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/), working on High-Availability for Stream Processing and a student at the [NOVA School of Science and Technology](https://www.fct.unl.pt/en).
 
 
