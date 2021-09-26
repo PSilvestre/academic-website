@@ -14,14 +14,15 @@ organizations:
   url: https://lsds.doc.ic.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include all kinds of performant and distributed data systems.
+bio: My research interests include all kinds of performant and distributed data-intensive systems.
 
 # Interests to show in About widget
 interests:
-- Stream Processing Systems
+- Dataflow Systems
 - Database Management Systems
+- Deep Learning Systems
 - Distributed Systems
-- Cloud and Edge Computing
+- Domain-specific Compilers
 
 # Education to show in About widget
 education:
@@ -31,7 +32,7 @@ education:
     year: 2021-Present
   - course: MSc in Computer Science
     institution: Nova School of Science and Technology
-    year: 2018-2021
+    year: 2018-2020
   - course: BSc in Computer Science
     institution: Nova School of Science and Technology
     year: 2015-2018
@@ -53,13 +54,12 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/pedro-silvestre
+- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: fas
+  link: https://scholar.google.com/citations?user=_sYQ8YAAAAAJ&hl=en
 - icon: cv
   icon_pack: ai
   link: media/resume.pdf
-
-#- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-#  icon_pack: fas
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
@@ -71,7 +71,7 @@ email: ""
 highlight_name: false
 ---
 
-I am a PhD student in the [Large-Scale Data & Systems Group](https://lsds.doc.ic.ac.uk/) at [Imperial College London](http://www.imperial.ac.uk/), under the supervision of [Dr. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/). My research at Imperial will focus on the interplay between Stream Processing and Edge Computing.
-Before Imperial, I was a Research Engineer at the TU Delft's [Web Information Systems Group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/), working on High-Availability for Stream Processing and a student at the [NOVA School of Science and Technology](https://www.fct.unl.pt/en).
+I am a PhD student in the [Large-Scale Data & Systems Group](https://lsds.doc.ic.ac.uk/) at [Imperial College London](http://www.imperial.ac.uk/), under the supervision of [Dr. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/). My research at Imperial will focus on the interplay between Dataflow Systems and novel Deep Learning use-cases.
+Before Imperial, I was a Research Engineer at the TU Delft's [Web Information Systems Group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/) working on [Clonos](https://delftdata.github.io/clonos-web/) and a student at the [NOVA School of Science and Technology](https://www.fct.unl.pt/en).
 
 

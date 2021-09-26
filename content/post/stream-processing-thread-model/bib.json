@@ -1,0 +1,293 @@
+[
+	{
+		"id": "rollback",
+		"type": "article-journal",
+		"container-title": "ACM Computing Surveys (CSUR)",
+		"issue": "3",
+		"note": "publisher: ACM New York, NY, USA",
+		"page": "375–408",
+		"title": "A survey of rollback-recovery protocols in message-passing systems",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Elnozahy",
+				"given": "Elmootazbellah Nabil"
+			},
+			{
+				"family": "Alvisi",
+				"given": "Lorenzo"
+			},
+			{
+				"family": "Wang",
+				"given": "Yi-Min"
+			},
+			{
+				"family": "Johnson",
+				"given": "David B"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		}
+	},
+	{
+		"id": "scotty",
+		"type": "article-journal",
+		"abstract": "Window aggregation is a core operation in data stream processing. Existing aggregation techniques focus on reducing latency, eliminating redundant computations, or minimizing memory usage. However, each technique operates under different assumptions with respect to workload characteristics, such as properties of aggregation functions (e.g., invertible, associative), window types (e.g., sliding, sessions), windowing measures (e.g., time- or count-based), and stream (dis)order. In this article, we present\n              Scotty\n              , an efficient and general open-source operator for sliding-window aggregation in stream processing systems, such as Apache Flink, Apache Beam, Apache Samza, Apache Kafka, Apache Spark, and Apache Storm. One can easily extend Scotty with user-defined aggregation functions and window types. Scotty implements the concept of general stream slicing and derives workload characteristics from aggregation queries to improve performance without sacrificing its general applicability. We provide an in-depth view on the algorithms of the general stream slicing approach. Our experiments show that Scotty outperforms alternative solutions.",
+		"container-title": "ACM Transactions on Database Systems",
+		"DOI": "10.1145/3433675",
+		"ISSN": "0362-5915, 1557-4644",
+		"issue": "1",
+		"journalAbbreviation": "ACM Trans. Database Syst.",
+		"language": "en",
+		"page": "1-46",
+		"source": "DOI.org (Crossref)",
+		"title": "Scotty: General and Efficient Open-source Window Aggregation for Stream Processing Systems",
+		"title-short": "Scotty",
+		"URL": "https://dl.acm.org/doi/10.1145/3433675",
+		"volume": "46",
+		"author": [
+			{
+				"family": "Traub",
+				"given": "Jonas"
+			},
+			{
+				"family": "Grulich",
+				"given": "Philipp Marian"
+			},
+			{
+				"family": "Cuéllar",
+				"given": "Alejandro Rodríguez"
+			},
+			{
+				"family": "Breß",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Katsifodimos",
+				"given": "Asterios"
+			},
+			{
+				"family": "Rabl",
+				"given": "Tilmann"
+			},
+			{
+				"family": "Markl",
+				"given": "Volker"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "flink",
+		"type": "article-journal",
+		"container-title": "Bulletin of the IEEE Computer Society Technical Committee on Data Engineering",
+		"issue": "4",
+		"note": "publisher: IEEE Computer Society",
+		"title": "Apache flink: Stream and batch processing in a single engine",
+		"volume": "36",
+		"author": [
+			{
+				"family": "Carbone",
+				"given": "Paris"
+			},
+			{
+				"family": "Katsifodimos",
+				"given": "Asterios"
+			},
+			{
+				"family": "Ewen",
+				"given": "Stephan"
+			},
+			{
+				"family": "Markl",
+				"given": "Volker"
+			},
+			{
+				"family": "Haridi",
+				"given": "Seif"
+			},
+			{
+				"family": "Tzoumas",
+				"given": "Kostas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "state",
+		"type": "article-journal",
+		"container-title": "Proceedings of the VLDB Endowment",
+		"issue": "12",
+		"note": "ISBN: 2150-8097\npublisher: VLDB Endowment",
+		"page": "1718-1729",
+		"title": "State management in Apache Flink®: consistent stateful distributed stream processing",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Carbone",
+				"given": "Paris"
+			},
+			{
+				"family": "Ewen",
+				"given": "Stephan"
+			},
+			{
+				"family": "Fóra",
+				"given": "Gyula"
+			},
+			{
+				"family": "Haridi",
+				"given": "Seif"
+			},
+			{
+				"family": "Richter",
+				"given": "Stefan"
+			},
+			{
+				"family": "Tzoumas",
+				"given": "Kostas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "async",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:1506.08603",
+		"title": "Lightweight asynchronous snapshots for distributed dataflows",
+		"author": [
+			{
+				"family": "Carbone",
+				"given": "Paris"
+			},
+			{
+				"family": "Fóra",
+				"given": "Gyula"
+			},
+			{
+				"family": "Ewen",
+				"given": "Stephan"
+			},
+			{
+				"family": "Haridi",
+				"given": "Seif"
+			},
+			{
+				"family": "Tzoumas",
+				"given": "Kostas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "state-reconf",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 2013 ACM SIGMOD international conference on Management of data",
+		"page": "725-736",
+		"title": "Integrating scale out and fault tolerance in stream processing using operator state management",
+		"author": [
+			{
+				"family": "Castro Fernandez",
+				"given": "Raul"
+			},
+			{
+				"family": "Migliavacca",
+				"given": "Matteo"
+			},
+			{
+				"family": "Kalyvianaki",
+				"given": "Evangelia"
+			},
+			{
+				"family": "Pietzuch",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "saber",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 2016 International Conference on Management of Data",
+		"page": "555-569",
+		"title": "Saber: Window-based hybrid stream processing for heterogeneous architectures",
+		"author": [
+			{
+				"family": "Koliousis",
+				"given": "Alexandros"
+			},
+			{
+				"family": "Weidlich",
+				"given": "Matthias"
+			},
+			{
+				"family": "Castro Fernandez",
+				"given": "Raul"
+			},
+			{
+				"family": "Wolf",
+				"given": "Alexander L."
+			},
+			{
+				"family": "Costa",
+				"given": "Paolo"
+			},
+			{
+				"family": "Pietzuch",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	}
+]
