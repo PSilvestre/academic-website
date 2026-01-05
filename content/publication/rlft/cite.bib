@@ -1,0 +1,10 @@
+@inproceedings{silvestre2025systems,
+  title={Systems Opportunities for LLM Fine-Tuning using Reinforcement Learning},
+  author={Silvestre, Pedro F and Pietzuch, Peter},
+  booktitle={Proceedings of the 5th Workshop on Machine Learning and Systems},
+  pages={90--99},
+  abstract={Reinforcement learning-based fine-tuning (RLFT) has emerged as a crucial workload for enhancing large language models (LLMs). RLFT workflows are challenging, involving nested loops, multiple models, dynamically shaped tensors and interleaving sequential generation and parallel inference tasks. Despite these complexities, current RLFT engines rely on coarse-grained algorithm representations, treating each component as an independently optimized black-box. As a result, RLFT engines suffer from redundant computations, scheduling overhead, inefficient memory management, and missed opportunities for parallelism.
+We argue that a fine-grained representation is needed to enable holistic optimization for RLFT workloads. Additionally, we demonstrate that existing declarative deep learning engines fail to optimize RLFT workloads end-to-end due to their need for static tensor shapes and loop bounds, leading to excessive peak memory usage and unnecessary computations. Through micro-benchmarks, we quantify these inefficiencies and show that addressing them could enable more efficient and flexible execution. We propose an RLFT system design based on a fine-granularity representation, opening the door to generalizable optimizations, and paving the way for more scalable and efficient RLFT systems.},
+  year={2025}
+}
+
